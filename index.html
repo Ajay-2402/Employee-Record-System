@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Record System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Employee Record System</h1>
+    </header>
+    
+    <section id="employee-form">
+        <h2>Add Employee</h2>
+        <form id="add-employee-form">
+            <label for="employee-name">Name:</label>
+            <input type="text" id="employee-name" required>
+
+            <label for="employee-age">Age:</label>
+            <input type="number" id="employee-age" required>
+
+            <label for="employee-position">Position:</label>
+            <input type="text" id="employee-position" required>
+
+            <button type="submit">Add Employee</button>
+        </form>
+    </section>
+
+    <section id="employee-list">
+        <h2>Employee List</h2>
+        <ul id="employees">
+            <!-- Employee records will be displayed here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
